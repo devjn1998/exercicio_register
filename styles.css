@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-image: url(/images/Layered\ Skyline_Poster.jpg);
+    background-size: 100%;
+}
+
+header img
+{
+    height: 42px;
+    border: none;
+    margin-right: 16px;
+}
+
+.container
+{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.container h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+section .container
+{
+    margin-top: 16px;
+    background-color: rgba(100, 100, 100, 0.39);
+    padding: 10px;
+}
+
+section .container h2
+{
+    margin-top: 16px;
+    text-align: center;
+}
+
+section .container p
+{
+    text-align: center;
+    margin-top: 16px;
+    color: green;
+    font-weight: bolder;
+}
+
+section .sair a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+section .sair a img
+{
+    height: 29px;
+    margin-right: 10px;
+
+}
+form
+{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label
+{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+form input
+{
+    width: 480px;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+form input:focus
+{
+    outline: none;
+}
+
+form button
+{
+    width: 300px;
+    height: 25px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+form button[type="submit"]
+{
+    background-color: rgb(9, 128, 9);
+}
+form button[type="reset"]
+{
+    background-color: rgb(102, 3, 3);
+}
+
+footer .container p
+{
+    text-align: center;
+    color: black;
+}
